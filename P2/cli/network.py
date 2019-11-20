@@ -14,7 +14,7 @@ def cli():
 def barabasi_albert(n,m):
     click.echo('generating barabasi albert model with n = {}, m = {}'.format(n,m))
     ba = nx.barabasi_albert_graph(n, m, seed=None) #m < n
-    nx.write_edgelist(ba, "barabasi-albert-large_n{}_m{}.csv".format(n,m), delimiter=",", data=True)
+    nx.write_edgelist(ba, "barabasi_albert_n{}_m{}.csv".format(n,m), delimiter=",", data=True)
 
 @cli.command()
 @click.option('--n', default=500, help='number of nodes')
