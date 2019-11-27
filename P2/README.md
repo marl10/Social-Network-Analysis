@@ -15,15 +15,15 @@
 ### ---- Entregar ----
 
 
-codigo fuente
+- codigo fuente
 
-ejecutable
+- ejecutable
 
-redes de los modelos
+- redes de los modelos
 
-manual de uso de la aplicacion creada
+- manual de uso de la aplicacion creada
 
-documentacion en pdf
+- documentacion en pdf
 
     - Portada con el número y título de la práctica.
 
