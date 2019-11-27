@@ -1,7 +1,7 @@
 ## 1. Desarrollo de modelos
 - [x] 1.1 Creacion de 2 redes iguales de cada tipo
 - [ ] 1.2 Actualizar en cada paso de simulacion (Barabasi-Albert)
-- [ ] 1.3 Etapas: subcrítica, crítica, supercrítica y conectada.
+- [ ] 1.3 Etapas: subcrítica p < 1/N, crítica p = 1/N, supercrítica p < 1/N y conectada p > ln(N/N).
 ## 2. Verificacion de propiedades de las redes, segun su modelo teorico
 - [ ] 2.1 Para la red de erdos-renyi calcular a media de los 10 grafos
 ## 3. Estudio de la red de la practica 1, Actores-Peliculas []
