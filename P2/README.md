@@ -1,5 +1,5 @@
 ## 1. Desarrollo de modelos
-\t### 1.1 Creacion de 2 redes iguales de cada tipo
+    ### 1.1 Creacion de 2 redes iguales de cada tipo
 ### 1.2 Actualizar en cada paso de simulacion (Barabasi-Albert)
 ### 1.3 Etapas: subcrítica, crítica, supercrítica y conectada.
 ## 2. Verificacion de propiedades de las redes, segun su modelo teorico
