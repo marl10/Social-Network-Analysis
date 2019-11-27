@@ -27,12 +27,12 @@
 
     - Portada con el número y título de la práctica.
 
-    – Número de grupo.
+    - Número de grupo.
     
-    – Nombre y apellidos de los integrantes del grupo.
+    - Nombre y apellidos de los integrantes del grupo.
     
-    – Análisis comparativo de las redes generadas con los modelos.
+    - Análisis comparativo de las redes generadas con los modelos.
     
-    – Análisis del modelo de red más adecuado para la red de la práctica 1.
+    - Análisis del modelo de red más adecuado para la red de la práctica 1.
     
-    – Referencias bibliográficas u otro tipo de material distinto del proporcionado en la asignatura que se haya consultado para realizar la práctica.
+    - Referencias bibliográficas u otro tipo de material distinto del proporcionado en la asignatura que se haya consultado para realizar la práctica.
