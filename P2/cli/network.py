@@ -1,5 +1,6 @@
 import click
 import networkx as nx
+import modelos
 
 @click.group()
 def cli():
@@ -14,7 +15,8 @@ def cli():
 
 def barabasi_albert(n,m):
     click.echo('generating barabasi albert model with n = {}, m = {}'.format(n,m))
-    ba = nx.barabasi_albert_graph(n, m, seed=None) #m < n
+    #ba = nx.barabasi_albert_graph(n, m, seed=None) #m < n
+    ba = modelos.barabasi_albert(n,m)
     nx.write_edgelist(ba, "barabasi_albert_n{}_m{}.csv".format(n, m), delimiter=",", data=True)
 
 @cli.command()

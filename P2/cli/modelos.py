@@ -97,7 +97,7 @@ def barabasi_albert(nodos, m):
             n = random.random() 
             actual = 0
 
-            while(actual < i and probAcumulada[actual][1]): # No nos pasamos del nuevo nodo y la probabilidad acumulado es menor que la n, entonces pasamos al suiente nodo candidato 
+            while(actual < i and probAcumulada[actual][1] < n): # No nos pasamos del nuevo nodo y la probabilidad acumulado es menor que la n, entonces pasamos al suiente nodo candidato 
                 actual += 1
             
             idDestino = probAcumulada[actual][0] # extreamos el id del nodo seleccionado para formar la conexion 
