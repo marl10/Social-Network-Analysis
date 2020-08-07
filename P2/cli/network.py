@@ -25,7 +25,8 @@ def barabasi_albert(n,m):
 def erdos_renyi(n,p,total):
     click.echo('generating {} erdos renyi model(s) with n = {}, p = {}'.format(total,n,p))
     for i in range(total):
-        er = nx.erdos_renyi_graph(n, p, seed=None, directed=False)
+        #er = nx.erdos_renyi_graph(n, p, seed=None, directed=False)
+        er = modelos.random_graph(n,p)
         nx.write_edgelist(er, 'erdos_renyi_{}_n{}_p{}.csv'.format(i,n,p), delimiter=",", data=True)
 
 if __name__ == "__main__":
